@@ -27,11 +27,6 @@ export class Home extends React.Component {
                 <Button 
                     title="Choose Photo"
                     onPress={this.handleChoosePhoto} />
-                {photo && (
-                    <View>
-                        <Editor image = {photo} />
-                    </View>
-                )}
             </View>
         );
     }

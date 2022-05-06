@@ -23,6 +23,12 @@ target 'Anonymyze2' do
 
   pod 'RNSketchCanvas', :path => '../node_modules/@terrylinla/react-native-sketch-canvas'
 
+  pod 'RNImageEditor', :path => '../node_modules/@wwimmo/react-native-sketch-canvas'
+
+  pod 'react-native-fetch-blob', :path => '../node_modules/react-native-fetch-blob'
+
+  pod 'react-native-webview', :path => '../node_modules/react-native-webview'
+
   target 'Anonymyze2Tests' do
     inherit! :complete
     # Pods for testing

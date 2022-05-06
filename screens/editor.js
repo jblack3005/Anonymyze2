@@ -11,7 +11,6 @@ import {
 } from 'react-native';
 import * as ImagePicker from "react-native-image-picker";
 import RNSketchCanvas from 'react-native-sketch-canvas';
-import DefaultImage from './assets/images/default_photo.jpg';
 import FaceDetection from 'react-native-face-detection';
 
 export class Editor extends React.Component {
